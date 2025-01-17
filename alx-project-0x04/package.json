@@ -1,5 +1,5 @@
 {
-  "name": "alx-project-0x03",
+  "name": "alx-project-0x04",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "alx-project-0x03": "file:",
+    "alx-project-0x04": "file:",
     "install-types": "^2.0.1",
     "next": "15.1.4",
     "react": "^19.0.0",

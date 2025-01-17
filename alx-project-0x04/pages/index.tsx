@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interface";
 import Footer from './../components/layouts/Footer';
 import Header from './../components/layouts/Header';
+import CounterApp from './counter-app';
 
 export default function Home() {
   const router = useRouter()
@@ -30,6 +31,7 @@ export default function Home() {
         <Button action={() => routeToNextPage({ pageRoute: '/counter-app'})} buttonLabel="Contact us" buttonBackgroundColor="orange" />
       </div>
     </div>
+      <CounterApp/>
     <Footer/>
     </>
   );
